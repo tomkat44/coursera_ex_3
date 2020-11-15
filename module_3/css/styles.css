@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
-.container-fluid {
-  width: 100%;
+/*
+.container-fluid{
+  padding: 0px;;
 }
-
+*/
 body {
   font-size: 16px;
   color: #fff;
@@ -23,6 +23,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  
 }
 
 .navbar-brand h1 { /* Restaurant name */
@@ -59,6 +60,12 @@ body {
   clear: both;
   margin-top: -30px;
 }
+ .row{
+   
+   width: 100%;
+   margin-left: 5px;
+   
+ }
 
 
 /* HOME PAGE */
@@ -72,23 +79,27 @@ body {
 
 }
 
-.container-fluid .text-block {
+.text-block {
+  
   box-shadow: 0 0 50px #3e6066;
   border: 2px solid #3a5e7c; 
   min-height: 1000px;
   margin-bottom: 50px;
+  
+  
 }
 
 .title-text-block{
-color: black;
+  color: black;
 
 }
 
 .text-text-block{
-color: black;
-text-align: justify;
-    margin-left: 20px;
-    margin-right: 20px;
+  width: 90%;
+  color: black;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* END HOME PAGE */
@@ -103,13 +114,6 @@ text-align: justify;
     height: 60px;
   }
   /*End Header*/
-
-  .container-fluid .text-block {
-    width: 32%;
-    float: left;
-    margin: 0px 5px 50px 5px;
-    
-  }
 }
 
 /********** Medium devices only **********/
@@ -120,15 +124,7 @@ text-align: justify;
     height: 60px;
   }
   /*End Header*/
-  .container-fluid .text-block {
-    width: 48%;
-    float: left;
-    margin: 0px 5px 50px 5px;
-  }
-
-  .container-fluid .text-block2 {
-    width: 97%;
-  }
+  
 
 }
 
@@ -141,9 +137,7 @@ text-align: justify;
   }
   /*End Header*/
 
-  .container-fluid .text-block {
-    width: 100%;
-  }
+  
 }
 
 
@@ -156,7 +150,7 @@ text-align: justify;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+   /* font-size: 5vw;  1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
     font-size: .6em;
